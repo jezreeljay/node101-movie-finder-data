@@ -5,7 +5,7 @@ const axios = require('axios');
 let cache = {};
 
 axios.defaults.baseURL = 'http://localhost:3000';
-axios.defaults.headers = {'Content-Type': 'application/json'};
+// axios.defaults.headers = {'Content-Type': 'application/json'};
 app.use(morgan('dev'));
 
 app.get('/', (req, res) => {
