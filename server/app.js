@@ -21,7 +21,7 @@ switch (true) {
             res.send(cache[movieID]);
             })
             .catch((err) => {
-            console.log(err.res);
+            // console.log(err.res);
             })
         //Send cached data            
         if (cache[movieID] !== undefined) {
@@ -37,7 +37,7 @@ switch (true) {
             res.send(cache[movieTitle]);
             })
             .catch((err) => {
-            console.log(err.res); 
+            // console.log(err.res); 
             })
         //Send cached data            
         if (cache[movieTitle] !== undefined) {
